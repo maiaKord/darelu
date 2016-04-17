@@ -509,6 +509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0f2085206d2e242928b267ebb2e67a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnMe: 0
+  respawnTime: 5
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -520,34 +522,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74d4ae586b84bd748aafa83dc91d6f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usingSprites: 0
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  tooltipOnHover: 1
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
+  rotateObjectWithCamera: 0
+  rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
-  requireTimer: 1
   ReplacementSprite: {fileID: 0}
   oneTimeUse: 1
+  resetOnActivate: 0
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  rotateWithCamera: 0
-  CallFunctionOnActivate: 646f47756e
+  CallFunctionOnActivate: doGun
   GameObjectToActivate: {fileID: 100002}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
+  debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

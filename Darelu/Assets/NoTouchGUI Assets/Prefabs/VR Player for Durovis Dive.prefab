@@ -664,11 +664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be7942de3910034fa21a8c5b3e54c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorOnHover:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
+  colorOnHover: {r: 1, g: 0, b: 0, a: 1}
   rayLength: 2
   timeOnButton: 0
   onButton: 0
@@ -685,11 +681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 1
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -699,18 +691,14 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 0.25
   waitTime: 0.2
-  CallFunctionOnActivate: 746f67676c655f6175746f77616c6b
+  CallFunctionOnActivate: toggle_autowalk
   GameObjectToActivate: {fileID: 100004}
-  CallFunctionOnDeactivate: 746f67676c655f6175746f77616c6b
+  CallFunctionOnDeactivate: toggle_autowalk
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1

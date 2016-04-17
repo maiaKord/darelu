@@ -9,16 +9,16 @@ public class BNG_NonVRWalk : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 
-        //fpsRef = transform.GetComponent<FPSInputControllerForNoTouchGUI>();
+       // fpsRef = transform.GetComponent<FPSInputControllerForNoTouchGUI>();
 	}
 
     void ActivateAutoWalk()
     {
-        //fpsRef.autowalk = 1;
+       // fpsRef.autowalk = 1;
     }
 
     void DeactivateAutoWalk()
     {
-        //fpsRef.autowalk = 0;
+       // fpsRef.autowalk = 0;
     }
 }

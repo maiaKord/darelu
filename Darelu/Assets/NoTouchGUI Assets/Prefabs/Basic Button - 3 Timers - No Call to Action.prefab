@@ -342,11 +342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 100020}
@@ -363,11 +359,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

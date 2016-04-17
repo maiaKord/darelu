@@ -115,14 +115,11 @@ public class BNG_Zapper : MonoBehaviour
 
         if (za.canActivate)
         {
-            print("GOOT TIMES");
             timeOnButton += Time.deltaTime;
             za.ActivateTimer(this, timeOnButton);
         }
         else
-        {
-
-            print("FARTING");
+		{
 
             if(usingSprites) sr.color = defaultColor;
             onButton = false;

@@ -1,7 +1,20 @@
 fileFormatVersion: 2
 guid: 362583b388b8c1d4c8bf2bb118d3524b
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Icons_0
+    21300002: Icons_1
+    21300004: Icons_2
+    21300006: Icons_3
+    21300008: Icons_4
+    21300010: Icons_5
+    21300012: Icons_6
+    21300014: Icons_7
+    21300016: Icons_8
+    21300018: Icons_9
+    21300020: Icons_10
+    21300022: Icons_11
+    21300024: Icons_12
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -58,7 +71,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_1
       rect:
         serializedVersion: 2
@@ -69,7 +90,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_2
       rect:
         serializedVersion: 2
@@ -80,7 +109,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_3
       rect:
         serializedVersion: 2
@@ -91,7 +128,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_4
       rect:
         serializedVersion: 2
@@ -102,7 +147,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_5
       rect:
         serializedVersion: 2
@@ -113,7 +166,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_6
       rect:
         serializedVersion: 2
@@ -124,7 +185,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_7
       rect:
         serializedVersion: 2
@@ -135,7 +204,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_8
       rect:
         serializedVersion: 2
@@ -146,7 +223,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_9
       rect:
         serializedVersion: 2
@@ -157,7 +242,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_10
       rect:
         serializedVersion: 2
@@ -168,7 +261,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_11
       rect:
         serializedVersion: 2
@@ -179,7 +280,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     - name: Icons_12
       rect:
         serializedVersion: 2
@@ -190,7 +299,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -18}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 29, y: -20}
+        - {x: 29, y: 18}
+        - {x: 26, y: 29}
     outline: []
   spritePackingTag: 
   userData: 
