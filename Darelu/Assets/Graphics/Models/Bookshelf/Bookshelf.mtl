@@ -1,0 +1,86 @@
+# Blender MTL File: 'Plasma Frigate.blend'
+# Material Count: 7
+
+newmtl in20book_03_lm1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd in20book_03_lm1.png
+map_Ka in20book_03_lm1.png
+map_d in20book_03_lm1.png
+
+newmtl in20book_08_lm1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd in20book_08_lm1.png
+map_Ka in20book_08_lm1.png
+map_d in20book_08_lm1.png
+
+newmtl in20book_09_lm1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd in20book_09_lm1.png
+map_Ka in20book_09_lm1.png
+map_d in20book_09_lm1.png
+
+newmtl in20kage_01_lm1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd in20kage_01_lm1.png
+map_Ka in20kage_01_lm1.png
+map_d in20kage_01_lm1.png
+
+newmtl in20tana_01_lm2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd in20tana_01_lm2.png
+map_Ka in20tana_01_lm2.png
+map_d in20tana_01_lm2.png
+
+newmtl lambert1.003
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd lambert1.png
+map_Ka lambert1.png
+map_d lambert1.png
+
+newmtl lambert12
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd lambert12.png
+map_Ka lambert12.png
+map_d lambert12.png

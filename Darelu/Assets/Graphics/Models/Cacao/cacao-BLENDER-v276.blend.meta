@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 9c8b660ce06c5c647b26c50e232699d0
+timeCreated: 1460865472
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bean
+    100002: bean_001
+    100004: bean_002
+    100006: bean_003
+    100008: bean_004
+    100010: bean_005
+    100012: bean_006
+    100014: bean_007
+    100016: bean_008
+    100018: bean_009
+    100020: bean_010
+    100022: bean_011
+    100024: bean_012
+    100026: bean_013
+    100028: bean_014
+    100030: cacao
+    100032: //RootNode
+    100034: cocoa_beans_001
+    100036: Empty
+    100038: Ground
+    100040: pieces
+    400000: bean
+    400002: bean_001
+    400004: bean_002
+    400006: bean_003
+    400008: bean_004
+    400010: bean_005
+    400012: bean_006
+    400014: bean_007
+    400016: bean_008
+    400018: bean_009
+    400020: bean_010
+    400022: bean_011
+    400024: bean_012
+    400026: bean_013
+    400028: bean_014
+    400030: cacao
+    400032: //RootNode
+    400034: cocoa_beans_001
+    400036: Empty
+    400038: Ground
+    400040: pieces
+    2300000: bean
+    2300002: bean_001
+    2300004: bean_002
+    2300006: bean_003
+    2300008: bean_004
+    2300010: bean_005
+    2300012: bean_006
+    2300014: bean_007
+    2300016: bean_008
+    2300018: bean_009
+    2300020: bean_010
+    2300022: bean_011
+    2300024: bean_012
+    2300026: bean_013
+    2300028: bean_014
+    2300030: cacao
+    2300032: cocoa_beans_001
+    2300034: Ground
+    2300036: pieces
+    3300000: bean
+    3300002: bean_001
+    3300004: bean_002
+    3300006: bean_003
+    3300008: bean_004
+    3300010: bean_005
+    3300012: bean_006
+    3300014: bean_007
+    3300016: bean_008
+    3300018: bean_009
+    3300020: bean_010
+    3300022: bean_011
+    3300024: bean_012
+    3300026: bean_013
+    3300028: bean_014
+    3300030: cacao
+    3300032: cocoa_beans_001
+    3300034: Ground
+    3300036: pieces
+    4300000: cocoa_beans_001
+    4300002: bean_014
+    4300004: bean_013
+    4300006: bean_012
+    4300008: bean_011
+    4300010: bean_010
+    4300012: bean_009
+    4300014: bean_008
+    4300016: bean_007
+    4300018: bean_006
+    4300020: bean_005
+    4300022: bean_004
+    4300024: bean_003
+    4300026: bean_002
+    4300028: bean_001
+    4300030: bean
+    4300032: cacao
+    4300034: pieces
+    4300036: Ground
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
