@@ -26,15 +26,11 @@ public class InteractiveObject : MonoBehaviour {
 	{
 		DialogController.Instance.ShowText (textToShow);
 
-		if (!active) {
+		if (!active && goToActivate != null) {
 			goToActivate.SetActive (true);
 			active = true;
 		}
 
 	}
-
-	public void Deactivate()
-	{
-		DialogController.Instance.HideAll ();
-	}
+		
 }

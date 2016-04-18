@@ -9,7 +9,16 @@ public class DialogController : Singleton<DialogController> {
 	public GameObject dialogBox;
 	public Text dialogText;
 
-	public float timePerLetter = 0.05f;
+	#endregion
+
+	#region PRIVATE VARIABLES
+
+
+	[SerializeField]
+	private float timeToHide;
+
+	[SerializeField]
+	private float timePerLetter = 0.05f;
 
 	#endregion
 
@@ -41,6 +50,10 @@ public class DialogController : Singleton<DialogController> {
 			dialogText.text += letter;
 			yield return new WaitForSeconds (time);
 		}
+
+		yield return new WaitForSeconds (timeToHide);
+		dialogText.text = "";
+		dialogBox.SetActive (false);
 
 		yield return null;
 	}
