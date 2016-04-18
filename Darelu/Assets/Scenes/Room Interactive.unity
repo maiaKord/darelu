@@ -327,13 +327,13 @@ Prefab:
       value: Llavesita
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
-      propertyPath: goToDeactivate
-      value: 
-      objectReference: {fileID: 21663040}
-    - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
       value: 
       objectReference: {fileID: 241860074}
+    - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: goToDeactivate
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -899,7 +899,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Jan, por favor salvate
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
@@ -1829,7 +1829,7 @@ Prefab:
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToDeactivate
       value: 
-      objectReference: {fileID: 671994154}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -3602,13 +3602,13 @@ Prefab:
       value: Get drunk
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
-      propertyPath: goToDeactivate
-      value: 
-      objectReference: {fileID: 241860074}
-    - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
       value: 
       objectReference: {fileID: 1677426041}
+    - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: goToDeactivate
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
