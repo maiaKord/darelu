@@ -9,6 +9,8 @@ public class InteractiveObject : MonoBehaviour {
 
 	public GameObject goToActivate;
 
+	public GameObject goToDeactivate;
+
 	#endregion
 
 	#region PRIVATE VARIABLES
@@ -28,6 +30,7 @@ public class InteractiveObject : MonoBehaviour {
 
 		if (!active && goToActivate != null) {
 			goToActivate.SetActive (true);
+			goToDeactivate.SetActive (false);
 			active = true;
 		}
 
