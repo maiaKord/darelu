@@ -16,26 +16,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &159104
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 467564}
-  - 33: {fileID: 3322804}
-  - 23: {fileID: 2364492}
-  - 114: {fileID: 11485076}
-  - 114: {fileID: 11466556}
-  - 65: {fileID: 6590106}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &163664
 GameObject:
   m_ObjectHideFlags: 1
@@ -60,6 +40,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 454234}
+  - 65: {fileID: 6540292}
+  - 114: {fileID: 11468000}
+  - 114: {fileID: 11453994}
   m_Layer: 0
   m_Name: InteractiveObject
   m_TagString: Untagged
@@ -69,7 +52,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &186766
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -113,11 +96,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 176648}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0.010465142, z: 0, w: -0.9999453}
+  m_LocalPosition: {x: 0.10203713, y: 0.6, z: -0.3937714}
+  m_LocalScale: {x: 1.0125152, y: 1.0125153, z: 1.0125151}
   m_Children:
-  - {fileID: 467564}
+  - {fileID: 460348}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &460348
@@ -126,72 +109,26 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186766}
-  m_LocalRotation: {x: 0, y: 0.67559004, z: 0, w: -0.7372775}
-  m_LocalPosition: {x: 0.10632777, y: 0.72, z: -0.46582225}
-  m_LocalScale: {x: 0.33999225, y: 0.33999225, z: 0.33999225}
+  m_LocalRotation: {x: 0, y: -0.0007506966, z: 0, w: -0.99999976}
+  m_LocalPosition: {x: -1.0437, y: 0.86, z: -0.028994}
+  m_LocalScale: {x: 0.83112824, y: 0.8311281, z: 0.8311281}
   m_Children:
   - {fileID: 429466}
   - {fileID: 434438}
-  m_Father: {fileID: 467564}
-  m_RootOrder: 0
---- !u!4 &467564
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159104}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.89, y: 3.581, z: -1.19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 460348}
   m_Father: {fileID: 454234}
   m_RootOrder: 0
---- !u!23 &2364492
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159104}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 1cde3f9e784ae4322b0ab409828b6ced, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &3322804
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159104}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &6590106
+--- !u!65 &6540292
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159104}
+  m_GameObject: {fileID: 176648}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.6209534, y: 1, z: 1}
+  m_Center: {x: -0.12156973, y: 0, z: -0.000024258867}
 --- !u!114 &11413634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -203,48 +140,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea9eeaf70f11f42aba6b5c28fa426bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11466556
+--- !u!114 &11453994
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159104}
+  m_GameObject: {fileID: 176648}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f7f7f067835847c88fe440fd3c6912d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToShow: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+  textToShow: Jan porfavor sobrevive
   goToActivate: {fileID: 0}
---- !u!114 &11485076
+--- !u!114 &11468000
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159104}
+  m_GameObject: {fileID: 176648}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74d4ae586b84bd748aafa83dc91d6f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeColorOnHover: 1
-  changeColorOnActivate: 1
+  changeColorOnHover: 0
+  changeColorOnActivate: 0
   newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
   ReplacementSprite: {fileID: 0}
   oneTimeUse: 0
-  resetOnActivate: 0
-  timeToActivate: 4
+  resetOnActivate: 1
+  timeToActivate: 3
   timeToDeactivate: 1
   waitTime: 2
   CallFunctionOnActivate: Activate
-  GameObjectToActivate: {fileID: 159104}
-  CallFunctionOnDeactivate: Deactivate
-  GameObjectToDeactivate: {fileID: 159104}
+  GameObjectToActivate: {fileID: 176648}
+  CallFunctionOnDeactivate: 
+  GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
