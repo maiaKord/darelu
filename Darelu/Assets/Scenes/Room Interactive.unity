@@ -239,7 +239,7 @@ MonoBehaviour:
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
   ReplacementSprite: {fileID: 0}
-  oneTimeUse: 0
+  oneTimeUse: 1
   resetOnActivate: 1
   timeToActivate: 3
   timeToDeactivate: 1
@@ -438,6 +438,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -986,6 +990,10 @@ Prefab:
       propertyPath: goToDeactivate
       value: 
       objectReference: {fileID: 1447542099}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -1197,6 +1205,10 @@ Prefab:
       propertyPath: goToActivate
       value: 
       objectReference: {fileID: 1261668869}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -1441,6 +1453,10 @@ Prefab:
       propertyPath: goToDeactivate
       value: 
       objectReference: {fileID: 696073765}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -1749,6 +1765,10 @@ Prefab:
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToDeactivate
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
@@ -2071,6 +2091,10 @@ Prefab:
       propertyPath: goToDeactivate
       value: 
       objectReference: {fileID: 544369690}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -2394,6 +2418,10 @@ Prefab:
       propertyPath: goToActivate
       value: 
       objectReference: {fileID: 485764229}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -2568,6 +2596,10 @@ Prefab:
       propertyPath: goToDeactivate
       value: 
       objectReference: {fileID: 2079343263}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -3038,6 +3070,10 @@ Prefab:
       propertyPath: goToActivate
       value: 
       objectReference: {fileID: 696073765}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -3657,6 +3693,10 @@ Prefab:
       propertyPath: goToDeactivate
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -3765,6 +3805,10 @@ Prefab:
       propertyPath: goToDeactivate
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -3869,6 +3913,10 @@ Prefab:
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToDeactivate
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
@@ -5574,6 +5622,18 @@ Prefab:
       propertyPath: goToActivate
       value: 
       objectReference: {fileID: 21663040}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: resetOnActivate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: waitTime
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
@@ -5666,6 +5726,10 @@ Prefab:
       propertyPath: goToActivate
       value: 
       objectReference: {fileID: 33639183}
+    - target: {fileID: 11468000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: oneTimeUse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
   m_IsPrefabParent: 0
