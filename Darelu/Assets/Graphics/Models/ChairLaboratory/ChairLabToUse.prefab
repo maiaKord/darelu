@@ -57,6 +57,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 470674}
+  - 65: {fileID: 6579240}
   m_Layer: 0
   m_Name: ChairLabToUse
   m_TagString: Untagged
@@ -145,8 +146,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.00887543, z: -0.91}
+  m_LocalScale: {x: 0.9876393, y: 0.98763937, z: 0.98763937}
   m_Children:
   - {fileID: 468018}
   m_Father: {fileID: 0}
@@ -307,6 +308,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106340}
   m_Mesh: {fileID: 4300004, guid: 462e98dfbfc0cf14b9e3a2f0e035ef4c, type: 3}
+--- !u!65 &6579240
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.5764568, z: 1.3619143}
+  m_Center: {x: 0, y: 1.3558797, z: -0.18095727}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
