@@ -216,7 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7f7f067835847c88fe440fd3c6912d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToShow: '"...Can you find me? ...What does this mean?" You hear a soft flare.'
+  textToShow: '"...Can you find me?..." As you wonder the meaning of the phrase, you
+    heard a soft flare that caught your attention.'
   goToActivate: {fileID: 671994154}
   goToDeactivate: {fileID: 0}
 --- !u!114 &44589607
@@ -416,8 +417,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: This may be what I need. Hopefully there's something inside that chest
-        that can help me get out of here.
+      value: This may be what you need. Hopefully there's something inside that chest
+        that can help get out of here.
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -973,7 +974,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: This shouldn't be here
+      value: The painting shows a strange creature above you, it's disgusting smile
+        seems to merge with yours. You take a quick look around but see nobody in
+        the room besides you.
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -1427,7 +1430,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Creepy shit
+      value: The tune dates to a time very long forgotten, it's filled with static
+        noises that prevent you from making out any of the lyrics.
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -1735,7 +1739,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Empty reflection
+      value: That looks like the chair where you woke up in. You can't make any sense
+        of what's happening. Your head starts to feel dizzy.
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -2055,8 +2060,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: ' None of these books seem to be in english. "...monstrum intra vos est...
-        te inimicus tuus..." I can''t make sense of any of this. jurunguis'
+      value: ' None of these books seem to be in English. "...monstrum intra vos est...
+        te inimicus tuus..." You can''t make sense of any of this.'
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -2383,7 +2388,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: I just want to say "Hi".
+      value: '"I just want to say ''Hi''."'
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -2552,7 +2557,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Are you having fun?
+      value: 'It''s a picture.. of you. As you stare in awe at the painting before
+        you, a voice comes out from behind you: "Are you having fun?"'
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -3640,7 +3646,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Don't be shy.
+      value: 'The voice from before speaks to you again: "Don''t be shy". A telephone
+        begins to ring, it''s buzzing sound is driving you crazy.'
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -3850,7 +3857,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Get drunk
+      value: A quick smell tells you that the liquid inside is wine. You try and take
+        a sip to ease your mind, but a disgunting flavor impregnates your mouth as
+        soon as the liquor touches your tongue. You spit everything out and, while
+        still shocked by the strong flavor, hear some old music playing.
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -5558,7 +5568,7 @@ Prefab:
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
       value: You stare at the empty room before you; a blank canvas stares back at
-        you. How did you ever get here?
+        you. There are no doors or windows to leave from. How did you ever get here?
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -5650,7 +5660,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: 'A chest...? I don''t think this was here before. '
+      value: 'A chest...? You don''t recall seeing this here before. '
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate

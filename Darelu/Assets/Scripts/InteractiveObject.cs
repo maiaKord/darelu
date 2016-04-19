@@ -30,13 +30,14 @@ public class InteractiveObject : MonoBehaviour {
 
 		if (!active && goToActivate != null) {
 			goToActivate.SetActive (true);
+			if (goToDeactivate != null) {
+				goToDeactivate.SetActive (false);
+			}
+
 			active = true;
 		}
 
-		if (!active && goToDeactivate != null) {
-			goToDeactivate.SetActive (false);
-		}
-
+	
 	}
 		
 }
