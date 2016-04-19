@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7f7f067835847c88fe440fd3c6912d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToShow: Can you find me
+  textToShow: '"...Can you find me? ...What does this mean?" You hear a soft flare.'
   goToActivate: {fileID: 671994154}
   goToDeactivate: {fileID: 0}
 --- !u!114 &44589607
@@ -416,16 +416,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Llavesita
+      value: This may be what I need. Hopefully there's something inside that chest
+        that can help me get out of here.
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
       value: 
-      objectReference: {fileID: 241860074}
+      objectReference: {fileID: 1038034035}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToDeactivate
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21663040}
     - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: m_LocalScale.x
       value: 1
@@ -593,7 +594,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 464072, guid: 023e5d1d13e2b9a48a0731350be0df40, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 189788, guid: 023e5d1d13e2b9a48a0731350be0df40, type: 2}
       propertyPath: m_Name
@@ -778,7 +779,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 479000, guid: 06b40f03cd40b8f408db9f1ccb1a4e0e, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 106106, guid: 06b40f03cd40b8f408db9f1ccb1a4e0e, type: 2}
       propertyPath: m_Name
@@ -1185,7 +1186,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Luces
+      value: ' The candles emit a very light glow that fill you with warmth. Your
+        mind begins to relax a bit, before an audible thump brings you back to your
+        senses.'
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -1650,7 +1653,7 @@ Transform:
   m_Children:
   - {fileID: 535428693}
   m_Father: {fileID: 1686240359}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!1001 &531257451
 Prefab:
   m_ObjectHideFlags: 0
@@ -2052,7 +2055,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Librerus jurunguis
+      value: ' None of these books seem to be in english. "...monstrum intra vos est...
+        te inimicus tuus..." I can''t make sense of any of this. jurunguis'
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -2838,7 +2842,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: El reflejo del vacio no existe
+      value: ' You don''t remember this book being in bookshelf when you checked earlier.
+        Oddly enough, it appears to be in english: "An empty mind lends itself to
+        disaster. You are your own worst enemy."'
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToDeactivate
@@ -2888,7 +2894,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 446050, guid: 90d715bf3ca862946a2d491394416ea8, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 195660, guid: 90d715bf3ca862946a2d491394416ea8, type: 2}
       propertyPath: m_Name
@@ -3025,7 +3031,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 480398, guid: bb490d5d1f603a54180abc207625dce0, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 199512, guid: bb490d5d1f603a54180abc207625dce0, type: 2}
       propertyPath: m_Name
@@ -3230,6 +3236,76 @@ Prefab:
     - {fileID: 6511082, guid: d095507705637f64bb5035633d7626a5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d095507705637f64bb5035633d7626a5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1038034033
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1686240359}
+    m_Modifications:
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8.970001
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.9299998
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.8660255
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999988
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199314, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_Name
+      value: AtticChest (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199314, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1038034034 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 410792, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+  m_PrefabInternal: {fileID: 1038034033}
+--- !u!1 &1038034035 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 199314, guid: 823999defcfa3d149b78ad7a706062fd, type: 2}
+  m_PrefabInternal: {fileID: 1038034033}
 --- !u!1 &1096512899
 GameObject:
   m_ObjectHideFlags: 0
@@ -3453,6 +3529,60 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 492124, guid: 274d981e4f745d440bf18ee8c71392b0, type: 2}
   m_PrefabInternal: {fileID: 1153683107}
+--- !u!1001 &1184756729
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1038034034}
+    m_Modifications:
+    - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.10203713
+      objectReference: {fileID: 0}
+    - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.3937714
+      objectReference: {fileID: 0}
+    - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.010465142
+      objectReference: {fileID: 0}
+    - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -0.9999453
+      objectReference: {fileID: 0}
+    - target: {fileID: 454234, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: textToShow
+      value: Weird, it fits but it doesn't open.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: goToActivate
+      value: 
+      objectReference: {fileID: 241860074}
+    - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+      propertyPath: goToDeactivate
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1219402089
 Prefab:
   m_ObjectHideFlags: 0
@@ -3788,7 +3918,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 408448, guid: f071b1c5264fffe409dbf28f5df81cc1, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 194296, guid: f071b1c5264fffe409dbf28f5df81cc1, type: 2}
       propertyPath: m_Name
@@ -4470,7 +4600,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 443276, guid: 27c521ecd927c0446afffb9e4daa5365, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 101232, guid: 27c521ecd927c0446afffb9e4daa5365, type: 2}
       propertyPath: m_IsActive
@@ -4871,6 +5001,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 470815331}
+  - {fileID: 1038034034}
   - {fileID: 745625170}
   - {fileID: 1292159717}
   - {fileID: 989141172}
@@ -4918,7 +5049,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 465168, guid: 823588f14964715488b53bb61fabd38f, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 149550, guid: 823588f14964715488b53bb61fabd38f, type: 2}
       propertyPath: m_Name
@@ -5248,8 +5379,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: You stare at the empty room before you, while a blank canvas stares back
-        at you. How did you ever get here?
+      value: You stare at the empty room before you; a blank canvas stares back at
+        you. How did you ever get here?
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
@@ -5341,7 +5472,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: Jurungo el cofre
+      value: 'A chest...? I don''t think this was here before. '
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: goToActivate
