@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textToShow: '"...Can you find me?..." As you wonder the meaning of the phrase, you
-    heard a soft flare that caught your attention.'
+    hear a soft flare that cactches your attention.'
   goToActivate: {fileID: 671994154}
   goToDeactivate: {fileID: 0}
 --- !u!114 &44589607
@@ -1189,7 +1189,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11453994, guid: 2ac953e791c7c4ccc80d36871b97e070, type: 2}
       propertyPath: textToShow
-      value: ' The candles emit a very light glow that fill you with warmth. Your
+      value: ' The candles emit a very light glow that fills you with warmth. Your
         mind begins to relax a bit, before an audible thump brings you back to your
         senses.'
       objectReference: {fileID: 0}
